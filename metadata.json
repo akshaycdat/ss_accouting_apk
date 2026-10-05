@@ -1,0 +1,6 @@
+{
+  "name": "Suyash Accounting",
+  "description": "Professional employee attendance management application for Suyash Accounting & Management Solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

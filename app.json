@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Suyash Accounting",
+    "slug": "suyash-accounting",
+    "version": "1.2.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1A237E"
+    },
+    "android": {
+      "package": "com.suyash.member",
+      "versionCode": 4,
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_BACKGROUND_LOCATION",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_LOCATION",
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.WAKE_LOCK"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.suyash.member",
+      "buildNumber": "4",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Suyash Accounting requires location access during active shifts to record attendance and office check-ins.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Suyash Accounting periodically captures employee duty locations during active working hours between Check In and Check Out.",
+        "NSLocationAlwaysUsageDescription": "Suyash Accounting periodically captures employee duty locations during active working hours between Check In and Check Out.",
+        "UIBackgroundModes": ["location", "fetch", "processing"]
+      }
+    }
+  }
+}
